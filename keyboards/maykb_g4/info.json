@@ -34,7 +34,9 @@
             "sync": {
                 "layer_state": true,
                 "indicators": true
-            }
+            },
+            "watchdog": true,
+            "watchdog_timeout": 3000
         },
         "usb_detect": {
             "enabled": true
